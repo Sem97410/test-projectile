@@ -33,5 +33,7 @@ public class Player : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(Vector3.up * jumpHeight, ForceMode.VelocityChange);
             jumpKeyWasPressed = false;
         }
+
+        
     }
 }
