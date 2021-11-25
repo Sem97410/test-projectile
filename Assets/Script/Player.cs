@@ -25,8 +25,8 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space)){
             jumpKeyWasPressed = true;
         }
+        //blabla
         
-    }
 
     void FixedUpdate() {
         if(jumpKeyWasPressed){
